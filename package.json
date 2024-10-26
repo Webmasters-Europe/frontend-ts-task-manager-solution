@@ -1,0 +1,12 @@
+{
+  "name": "ts-assignment-task-manager",
+  "version": "1.0.0",
+  "main": "src/taskManager.ts",
+  "scripts": {
+    "ts": "npx esbuild src/tests/*.ts --watch --bundle --outfile=assets/js/bundle.js --loader:.ts=ts"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN README.md",
+  "description": "",
+  "dependencies": {}
+}
